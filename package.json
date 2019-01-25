@@ -1,0 +1,22 @@
+{
+  "name": "isled3muerto-way",
+  "version": "1.0.0",
+  "description": "long way to master web nindza skillz",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isled3muerto/isled3muerto.github.io.git"
+  },
+  "author": "isled3muerto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isled3muerto/isled3muerto.github.io/issues"
+  },
+  "homepage": "https://github.com/isled3muerto/isled3muerto.github.io#readme",
+  "dependencies": {
+    "vidage": "^0.1.2"
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>isled3muerto way</title>
+
+
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,100" />
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Vidage/0.1.2/styles/Vidage.css">
+    <link rel="stylesheet" href="demo.css" />
+    
+    <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+      html,
+      body {
+        font-family: 'Roboto Mono', monospace;
+        height: 100%;
+      }
+      .container {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .text {
+        font-weight: 100;
+        font-size: 28px;
+        color: #fafafa;
+      }
+      .dud {
+        color: #757575;
+      }
+
+    </style>
+
+          
+    <script src="js/prefixfree.min.js"></script>
+
+    </head>
+    <body>
+      <div class="Vidage">
+          <div class="Vidage__image"></div>
+
+          <video id="VidageVideo" class="Vidage__video" preload="metadata" loop autoplay muted>
+              <source src="videos/vidage.webm" type="video/webm">
+              <source src="videos/vidage.mp4" type="video/mp4">
+          </video>
+
+          <div class="Vidage__backdrop"></div>
+      </div>
+        <div class="Container Intro">
+            <h1 class="Title">
+                Kuanysh Slyamkhan
+            </h1>
+
+            <p class="Description">
+                Deep Learning
+            </p>
+            
+            <h2 class="Description">Machine Learning</h2>
+            <div class="text"></div>
+        </div>
+
+        <div class="Container">
+            <div class="Sponsors">
+                <div class="Sponsors__head">
+                    isledemuerto Inc 2017 Almaty KZ
+                </div>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Vidage/0.1.2/scripts/Vidage.js"></script>
+    <script>
+        new Vidage('#VidageVideo');
+    </script>
+    <script src="js/index.js"></script>
+    </body>
+</html>
